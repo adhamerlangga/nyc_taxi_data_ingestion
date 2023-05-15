@@ -3,3 +3,8 @@ getting NYC taxi data from website and transform some data types of column to th
 
 the total data is around 1,369,765 rows, 
 postgreSQL is containerized in docker
+
+## Usage
+```shell
+    python ingest_data.py --user=${your_username} --password=${your_password} --host=localhost --port=5432 --db=${your_db_name} --table_name=${your_table} --url=${url}
+```

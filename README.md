@@ -8,3 +8,6 @@ postgreSQL is containerized in docker
 ```shell
     python ingest_data.py --user=${your_username} --password=${your_password} --host=localhost --port=5432 --db=${your_db_name} --table_name=${your_table} --url=${url}
 ```
+
+## Docker Images
+docker images can be downloaded on my [docker hub](https://hub.docker.com/repository/docker/harenboy/taxi_ingest/general)
